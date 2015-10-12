@@ -12,7 +12,7 @@ public class FooController {
 
     @RequestMapping("/foo")
     public String index(Model model) {
-        model.addAttribute("foo", "Hello Handlebars!");
+        model.addAttribute("foo", "Hello Handlebars in Java!");
         return "foo";
     }
 }
