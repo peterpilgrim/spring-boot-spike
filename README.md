@@ -33,6 +33,36 @@ Establish the fast development lifecycle?
     * Be designed well
     * Extensible architecture (not lead to falling off the cliff in the near-future)
 
+# Requirement
+
+* Java SE 8 or better
+* Maven 3 
+
+
+    > mvn clean
+    > mvn package
+    > mvn spring-boot:run
+
+
+# Process 
+
+    
+Navigate the [http://localhost:8080/](http://localhost:8080/) to see the first page.
+
+Verify resources are being served [http://localhost:8080/resources/styles/bootstrap.css], [http://localhost:8080/resources/javascripts/angular.js]
+
+
+
+Test the REST remote endpoints: [http://localhost:8080/checkService](http://localhost:8080/checkService), 
+
+We also tried out [Handlebar Java port](https://github.com/jknack/handlebars.java) as an alternative template page view technology:
+
+Spring MVC Foo: [http://localhost:8080/foo](http://localhost:8080/foo)
+
+Spring MVC Page view with Bootstrap CSS [http://localhost:8080/welcome](http://localhost:8080/welcome)
+
+Spring MVC deliberate exception [http://localhost:8080/blowup](http://localhost:8080/blowup)
+
 
 # Results
 
