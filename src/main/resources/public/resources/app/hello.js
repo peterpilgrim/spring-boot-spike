@@ -1,6 +1,9 @@
-function Hello($scope, $http) {
-    $http.get('http://rest-service.guides.spring.io/greeting').
-        success(function(data) {
+var myApp = angular.module('app', []);
+
+myApp.controller('HelloController', function ($scope, $http) {
+    //http://rest-service.guides.spring.io/greeting
+    $http.get('/checkService').
+        success(function (data) {
             $scope.greeting = data;
         });
-}
+});

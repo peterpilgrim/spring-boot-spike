@@ -14,4 +14,9 @@ public class HelloController {
         return "Hello World - Greetings from Spring Boot!";
     }
 
+    @RequestMapping("/checkService")
+    public String checkService() {
+        return "{ \"id\": 12345, \"content\": \"this is a checking service\" }";
+    }
+
 }
