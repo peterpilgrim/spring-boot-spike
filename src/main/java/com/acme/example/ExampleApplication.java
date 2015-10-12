@@ -3,10 +3,12 @@ package com.acme.example;
 import org.springframework.boot.*;
 import org.springframework.boot.autoconfigure.*;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
 
 import java.util.Arrays;
 
-@SpringBootApplication
+@Configuration @EnableAutoConfiguration @ComponentScan
 public class ExampleApplication {
 
     public static void main(String[] args) throws Exception {
