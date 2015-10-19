@@ -16,6 +16,6 @@ public class HelloController {
 
     @RequestMapping("/checkService")
     public String checkService() {
-        return "{ \"id\": 12345, \"content\": \"this is a checking service (Count 1002 !)\" }";
+        return "{ \"id\": 12345, \"content\": \"this is a checking service (Count 1004 !)\" }";
     }
 }

@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class ExampleApplication {
 
     public static void main(String[] args) throws Exception {
-        ApplicationContext context =  SpringApplication.run(ExampleApplication.class, args);
+        ApplicationContext context = SpringApplication.run(ExampleApplication.class, args);
 
         System.out.println("======================================================================");
         System.out.println("Let's inspect the beans provided by Spring Boot:");
@@ -28,5 +28,4 @@ public class ExampleApplication {
         System.out.printf("\tcount=%d\n", count);
         System.out.println("======================================================================");
     }
-
 }

@@ -76,6 +76,14 @@ We see these advantages:
 * We like the option to generate a WAR file that can launch on traditional application servers.
 * We like the command line option.
 
+
+### Update of spike from 19th October 2015
+
+* We were finally able to demonstrate Hot JVM reloading of classes thanks of [Byorn de Silva's blog](http://byorns.blogspot.co.uk/2015/03/how-to-hot-deploy-spring-mvc-spring.html)
+* As in the blog, it is possible in IDEA to update web files under [src/main/webapp](src/main/webapp). However, we are still concerned about it, because this standard Java EE feature conflicts
+ Spring Boot's own documentation and advice.
+
+
 ## Cons
 
 We also see these disadvantages:
